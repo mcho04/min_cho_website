@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Min Cho | Experience, Education, Projects</title>
+    <meta
+      name="description"
+      content="A minimal personal website highlighting Min Cho's experience, education, and selected projects."
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main>
+      <section class="hero" aria-labelledby="intro-title">
+        <nav class="nav" aria-label="Main navigation">
+          <a href="#experience">Experience</a>
+          <a href="#education">Education</a>
+          <a href="#projects">Projects</a>
+          <a class="resume-link" href="resume.pdf" download aria-label="Download resume">
+            <span class="download-icon" aria-hidden="true">↓</span>
+            Resume
+          </a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Product-minded builder</p>
+            <h1 id="intro-title">Min Cho</h1>
+            <p class="summary">
+              I build practical, maintainable digital products with a focus on
+              clear systems, thoughtful user experience, and measurable outcomes.
+            </p>
+          </div>
+
+          <aside class="profile-panel" aria-label="Profile snapshot">
+            <img class="profile-photo" src="profile.jpg" alt="Portrait of Min Cho">
+            <dl>
+              <div>
+                <dt>Based in</dt>
+                <dd>Canada</dd>
+              </div>
+              <div>
+                <dt>Focus</dt>
+                <dd>Clear products, useful systems, reliable execution</dd>
+              </div>
+              <div>
+                <dt>Available for</dt>
+                <dd>Selected collaborations and project conversations</dd>
+              </div>
+            </dl>
+          </aside>
+        </div>
+      </section>
+
+      <section id="experience" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Experience</p>
+          <h2>Recent work</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div>
+              <p class="period">2024 - Present</p>
+              <h3>Company Name</h3>
+              <p class="company">Current or Recent Role</p>
+            </div>
+            <ul>
+              <li>Led projects from ambiguous requirements to shipped, maintainable solutions.</li>
+              <li>Worked across product, design, and engineering to improve user-facing workflows.</li>
+              <li>Created documentation and repeatable processes that reduced ongoing maintenance.</li>
+            </ul>
+          </article>
+
+          <article class="timeline-item">
+            <div>
+              <p class="period">2021 - 2024</p>
+              <h3>Previous Company</h3>
+              <p class="company">Previous Role</p>
+            </div>
+            <ul>
+              <li>Built and improved internal tools, websites, or operational systems.</li>
+              <li>Used data and stakeholder feedback to prioritize practical improvements.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="education" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Education</p>
+          <h2>Learning background</h2>
+        </div>
+        <div class="education-list">
+          <article class="education-item">
+            <p class="period">Year - Year</p>
+            <h3>Degree, Certificate, or Field of Study</h3>
+            <p class="company">University or Program Name</p>
+            <p>Relevant coursework, honors, thesis, or focus area.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2>Selected work</h2>
+        </div>
+        <div class="project-filters" aria-label="Filter selected work">
+          <button class="filter-button is-active" type="button" data-filter="all">
+            All
+          </button>
+          <button class="filter-button" type="button" data-filter="product">
+            Product
+          </button>
+          <button class="filter-button" type="button" data-filter="research">
+            Research
+          </button>
+          <button class="filter-button" type="button" data-filter="tooling">
+            Tooling
+          </button>
+        </div>
+        <div class="project-grid">
+          <article class="project-card" data-category="product">
+            <div>
+              <p class="project-type">Web app</p>
+              <h3>Selected Project One</h3>
+              <p>
+                A concise description of the problem, your role, and the result.
+                Keep this focused on impact rather than implementation trivia.
+              </p>
+            </div>
+            <div class="tags" aria-label="Selected Project One tags">
+              <span>Product</span>
+              <span>Frontend</span>
+              <span>Systems</span>
+            </div>
+            <a href="#">View project</a>
+          </article>
+
+          <article class="project-card" data-category="research">
+            <div>
+              <p class="project-type">Research / case study</p>
+              <h3>Selected Project Two</h3>
+              <p>
+                A short project summary that explains why it mattered, who it
+                served, and what changed after it shipped.
+              </p>
+            </div>
+            <div class="tags" aria-label="Selected Project Two tags">
+              <span>Research</span>
+              <span>UX</span>
+              <span>Strategy</span>
+            </div>
+            <a href="#">View project</a>
+          </article>
+
+          <article class="project-card" data-category="tooling">
+            <div>
+              <p class="project-type">Tooling</p>
+              <h3>Selected Project Three</h3>
+              <p>
+                A maintainable tool or workflow improvement with a clear
+                before-and-after outcome.
+              </p>
+            </div>
+            <div class="tags" aria-label="Selected Project Three tags">
+              <span>Automation</span>
+              <span>Operations</span>
+              <span>Documentation</span>
+            </div>
+            <a href="#">View project</a>
+          </article>
+        </div>
+      </section>
+
+      <footer id="contact">
+        <div>
+          <p>Min Cho</p>
+          <span>Contact</span>
+        </div>
+        <div class="contact-links" aria-label="Contact information">
+          <a href="mailto:hello@example.com">
+            <span class="contact-icon" aria-hidden="true">@</span>
+            hello@example.com
+          </a>
+          <a href="https://www.linkedin.com/">
+            <span class="contact-icon" aria-hidden="true">in</span>
+            LinkedIn
+          </a>
+          <a href="https://github.com/">
+            <span class="contact-icon" aria-hidden="true">gh</span>
+            GitHub
+          </a>
+        </div>
+      </footer>
+    </main>
+    <script>
+      const filterButtons = document.querySelectorAll(".filter-button");
+      const projectCards = document.querySelectorAll(".project-card");
+
+      filterButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          const selectedFilter = button.dataset.filter;
+
+          filterButtons.forEach((item) => {
+            item.classList.toggle("is-active", item === button);
+          });
+
+          projectCards.forEach((card) => {
+            const shouldShow =
+              selectedFilter === "all" || card.dataset.category === selectedFilter;
+
+            card.hidden = !shouldShow;
+          });
+        });
+      });
+    </script>
+  </body>
+</html>

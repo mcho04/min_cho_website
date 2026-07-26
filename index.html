@@ -35,7 +35,11 @@
           </div>
 
           <aside class="profile-panel" aria-label="Profile snapshot">
-            <img class="profile-photo" src="profile.jpg" alt="Portrait of Min Cho">
+            <img
+              class="profile-photo"
+              src="profile.jpg"
+              alt="Portrait of Min Cho"
+            >
             <dl>
               <div>
                 <dt>Based in</dt>
@@ -55,29 +59,26 @@
       </section>
 
       <section id="experience" class="section">
-        <div class="section-heading">
+        <div class="section-heading compact-heading">
           <p class="eyebrow">Experience</p>
-          <h2>Recent work</h2>
         </div>
         <div class="timeline">
           <article class="timeline-item">
             <div>
-              <p class="period">2024 - Present</p>
-              <h3>Company Name</h3>
-              <p class="company">Current or Recent Role</p>
+              <p class="period">Sept. 2026</p>
+              <h3>Technical Safety BC</h3>
+              <p class="company">Product Analyst Intern</p>
             </div>
             <ul>
-              <li>Led projects from ambiguous requirements to shipped, maintainable solutions.</li>
-              <li>Worked across product, design, and engineering to improve user-facing workflows.</li>
-              <li>Created documentation and repeatable processes that reduced ongoing maintenance.</li>
+              <li>Incoming Product Analyst Intern.</li>
             </ul>
           </article>
 
           <article class="timeline-item">
             <div>
-              <p class="period">2021 - 2024</p>
-              <h3>Previous Company</h3>
-              <p class="company">Previous Role</p>
+              <p class="period">May 2026 - Sept. 2026</p>
+              <h3>Direct Energy (NRG Energy)</h3>
+              <p class="company">GTM Data Analyst Intern</p>
             </div>
             <ul>
               <li>Built and improved internal tools, websites, or operational systems.</li>
@@ -88,15 +89,14 @@
       </section>
 
       <section id="education" class="section">
-        <div class="section-heading">
+        <div class="section-heading compact-heading">
           <p class="eyebrow">Education</p>
-          <h2>Learning background</h2>
         </div>
         <div class="education-list">
           <article class="education-item">
-            <p class="period">Year - Year</p>
-            <h3>Degree, Certificate, or Field of Study</h3>
-            <p class="company">University or Program Name</p>
+            <p class="period">Sept. 2022 - May 2028 (Expected)</p>
+            <h3>University of British Columbia</h3>
+            <p class="company">Bachelor of Science in Statistics</p>
             <p>Relevant coursework, honors, thesis, or focus area.</p>
           </article>
         </div>
@@ -105,24 +105,50 @@
       <section id="projects" class="section">
         <div class="section-heading">
           <p class="eyebrow">Projects</p>
-          <h2>Selected work</h2>
+          <h2 class="projects-title">Selected Projects</h2>
         </div>
         <div class="project-filters" aria-label="Filter selected work">
-          <button class="filter-button is-active" type="button" data-filter="all">
+          <button
+            class="filter-button is-active"
+            type="button"
+            data-filter="all"
+            aria-pressed="true"
+          >
             All
           </button>
-          <button class="filter-button" type="button" data-filter="product">
+          <button
+            class="filter-button"
+            type="button"
+            data-filter="product"
+            aria-pressed="false"
+          >
             Product
           </button>
-          <button class="filter-button" type="button" data-filter="research">
+          <button
+            class="filter-button"
+            type="button"
+            data-filter="research"
+            aria-pressed="false"
+          >
             Research
           </button>
-          <button class="filter-button" type="button" data-filter="tooling">
+          <button
+            class="filter-button"
+            type="button"
+            data-filter="tooling"
+            aria-pressed="false"
+          >
             Tooling
           </button>
         </div>
         <div class="project-grid">
           <article class="project-card" data-category="product">
+            <img
+              class="project-image"
+              src="project-1.jpg"
+              alt="Preview image for Selected Project One"
+              onerror="this.hidden = true"
+            >
             <div>
               <p class="project-type">Web app</p>
               <h3>Selected Project One</h3>
@@ -136,10 +162,16 @@
               <span>Frontend</span>
               <span>Systems</span>
             </div>
-            <a href="#">View project</a>
+            <a class="project-button" href="project-1.html">Read More</a>
           </article>
 
           <article class="project-card" data-category="research">
+            <img
+              class="project-image"
+              src="project-2.jpg"
+              alt="Preview image for Selected Project Two"
+              onerror="this.hidden = true"
+            >
             <div>
               <p class="project-type">Research / case study</p>
               <h3>Selected Project Two</h3>
@@ -153,10 +185,16 @@
               <span>UX</span>
               <span>Strategy</span>
             </div>
-            <a href="#">View project</a>
+            <a class="project-button" href="project-2.html">Read More</a>
           </article>
 
           <article class="project-card" data-category="tooling">
+            <img
+              class="project-image"
+              src="project-3.jpg"
+              alt="Preview image for Selected Project Three"
+              onerror="this.hidden = true"
+            >
             <div>
               <p class="project-type">Tooling</p>
               <h3>Selected Project Three</h3>
@@ -170,7 +208,7 @@
               <span>Operations</span>
               <span>Documentation</span>
             </div>
-            <a href="#">View project</a>
+            <a class="project-button" href="project-3.html">Read More</a>
           </article>
         </div>
       </section>
@@ -181,15 +219,15 @@
           <span>Contact</span>
         </div>
         <div class="contact-links" aria-label="Contact information">
-          <a href="mailto:hello@example.com">
+          <a href="mailto:mcho03@student.ubc.ca">
             <span class="contact-icon" aria-hidden="true">@</span>
-            hello@example.com
+            mcho03@student.ubc.ca
           </a>
-          <a href="https://www.linkedin.com/">
+          <a href="https://www.linkedin.com/in/minhyeokcho/">
             <span class="contact-icon" aria-hidden="true">in</span>
             LinkedIn
           </a>
-          <a href="https://github.com/">
+          <a href="https://github.com/mcho04">
             <span class="contact-icon" aria-hidden="true">gh</span>
             GitHub
           </a>
@@ -201,11 +239,14 @@
       const projectCards = document.querySelectorAll(".project-card");
 
       filterButtons.forEach((button) => {
-        button.addEventListener("click", () => {
+        button.addEventListener("click", (event) => {
+          event.preventDefault();
+
           const selectedFilter = button.dataset.filter;
 
           filterButtons.forEach((item) => {
             item.classList.toggle("is-active", item === button);
+            item.setAttribute("aria-pressed", String(item === button));
           });
 
           projectCards.forEach((card) => {
@@ -213,6 +254,16 @@
               selectedFilter === "all" || card.dataset.category === selectedFilter;
 
             card.hidden = !shouldShow;
+
+            if (shouldShow) {
+              card.animate(
+                [
+                  { opacity: 0, transform: "translateY(4px)" },
+                  { opacity: 1, transform: "translateY(0)" },
+                ],
+                { duration: 140, easing: "ease-out" }
+              );
+            }
           });
         });
       });
